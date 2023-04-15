@@ -1,0 +1,135 @@
+#spie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  position: relative;
+
+  p {
+    margin: 0;
+    &#spie-total-files-text {
+      margin-top: 26px;
+      margin-bottom: 12px;
+      text-align: center;
+      font-size: 1.2rem;
+      width: 100%;
+
+      &.spie-error {
+        color: #89221a;
+      }
+    }
+
+    &#spie-download-text {
+      width: 100%;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  }
+
+  .spie-action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+
+    button {
+      font-size: 1.1rem;
+      padding: 10px 20px;
+      border: 1px solid #44dad2;
+      border-radius: 24px;
+      background: #44dad2;
+      color: #fff;
+      cursor: pointer;
+
+      &#spie-delete-button {
+        background: #f44336;
+        border-color: #f44336;
+      }
+      &#spie-copy-button {
+        background: #265bd8;
+        border-color: #265bd8;
+      }
+      &#spie-download-button {
+        background: #44da6f;
+        border-color: #44da6f;
+      }
+    }
+    .spie-help-text {
+      margin-top: 6px;
+      max-width: 200px;
+      text-align: center;
+
+    }
+  }
+
+  #spie-loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+
+    .spie-loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #265bd8;
+      width: 120px;
+      height: 120px;
+
+      &.spie-animate {
+        animation-name: spin, spie_border_rainbow;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+    }
+
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes spie_border_rainbow {
+      0% {
+        border-top-color: #265bd8;
+      }
+      25% {
+        border-top-color: #44dad2;
+      }
+      50% {
+        border-top-color: #44da6f;
+      }
+      75% {
+        border-top-color: #f44336;
+      }
+      100% {
+        border-top-color: #265bd8;
+      }
+    }
+  }
+
+  .spie-hide {
+    display: none;
+    opacity: 0;
+  }
+}
