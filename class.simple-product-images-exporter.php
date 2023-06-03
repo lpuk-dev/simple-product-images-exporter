@@ -134,7 +134,6 @@ class Simple_Product_Images_Exporter
         <option value="publish" <?php selected($value, 'publish'); ?>><?php echo __('Published', 'simple-product-images-exporter'); ?></option>
         <option value="pending" <?php selected($value, 'pending'); ?>><?php echo __('Pending review', 'simple-product-images-exporter'); ?></option>
         <option value="draft" <?php selected($value, 'draft'); ?>><?php echo __('Draft', 'simple-product-images-exporter'); ?></option>
-        <option value="private" <?php selected($value, 'private'); ?>><?php echo __('Private', 'simple-product-images-exporter'); ?></option>
       </select>
     <?php
   }
@@ -197,6 +196,7 @@ class Simple_Product_Images_Exporter
       $folder_mex = __('Folder created', 'simple-product-images-exporter');
     }
     if($files_tot = self::spie_count_files_folder($folder_path)) {
+      // translators: %d is the number of files in the folder
       $folder_mex = __('Folder contain %d files', 'simple-product-images-exporter');
     }
 
@@ -344,6 +344,7 @@ class Simple_Product_Images_Exporter
         }
         $count++;
       }
+      // translators: %d is the number of images copied
       $mex = sprintf(__('Copyed %d images', 'simple-product-images-exporter'), $count);
       wp_send_json_success(array('mex' => $mex, 'tot' => $count));
     } else {

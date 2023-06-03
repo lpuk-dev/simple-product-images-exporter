@@ -1,0 +1,189 @@
+# Copyright (C) 2023 Lpuk
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Product Images Exporter 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-product-images-exporter\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-01T21:50:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: simple-product-images-exporter\n"
+
+#. Plugin Name of the plugin
+#: class.simple-product-images-exporter.php:160
+msgid "Simple Product Images Exporter"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://lpuk.it/simple-product-images-exporter/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Export all product images to a folder."
+msgstr ""
+
+#. Author of the plugin
+msgid "Lpuk"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://lpuk.it/"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:40
+msgid "This plugin requires WooCommerce to be installed and active."
+msgstr ""
+
+#: class.simple-product-images-exporter.php:78
+msgid "Settings"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:86
+msgid "Export folder"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:94
+msgid "Product status"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:112
+msgid "Settings for Simple Product Images Exporter"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:122
+msgid "Select folder name on wp-content/uploads"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:133
+msgid "All"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:134
+msgid "Published"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:135
+msgid "Pending review"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:136
+msgid "Draft"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:137
+msgid "Private"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:161
+msgid "SPIE - Imgs Exporter"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:174
+msgid "Settings Saved"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:189
+msgid "No folder created"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:197
+#: class.simple-product-images-exporter.php:269
+msgid "Folder created"
+msgstr ""
+
+#. translators: %d is the number of files in the folder
+#: class.simple-product-images-exporter.php:201
+#: class.simple-product-images-exporter.php:271
+msgid "Folder contain %d files"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:214
+msgid "Check Folder"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:215
+msgid "Check if the folder exists (if not, create) and how many files it contains"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:220
+msgid "Delete Folder"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:221
+msgid "Delete the folder and all files in it"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:226
+msgid "Copy the images"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:227
+msgid "Copy all images from products (status selected) to the folder"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:232
+msgid "Download as zip"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:233
+msgid "Download the folder as a zip file"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:244
+msgid "Options"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:253
+msgid "Save Settings"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:264
+#: class.simple-product-images-exporter.php:283
+#: class.simple-product-images-exporter.php:302
+#: class.simple-product-images-exporter.php:360
+msgid "Nonce error"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:275
+#: class.simple-product-images-exporter.php:392
+msgid "Folder not created error"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:288
+msgid "Folder deleted"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:291
+#: class.simple-product-images-exporter.php:310
+msgid "Folder not empty error"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:294
+msgid "Folder not created yet"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:306
+msgid "No folder to copy files to"
+msgstr ""
+
+#. translators: %d is the number of images copied
+#: class.simple-product-images-exporter.php:349
+msgid "Copyed %d images"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:352
+msgid "No products found"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:381
+msgid "Zip file created"
+msgstr ""
+
+#: class.simple-product-images-exporter.php:389
+msgid "Zip file not created error"
+msgstr ""
