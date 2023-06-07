@@ -15,8 +15,8 @@ GNU General Public License for more details.
  * Plugin URI:        https://lpuk.it/simple-product-images-exporter/
  * Description:       Export all product images to a folder.
  * Version:           1.0.0
- * Requires at least: 5.4
- * Requires PHP:      7.2
+ * Requires at least: 6.0
+ * Requires PHP:      7.3
  * Author:            Lpuk
  * Author URI:        https://lpuk.it/
  * License:           GPL v2 or later
